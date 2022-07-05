@@ -5,6 +5,7 @@ body {
 
 .common-sections {
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .section1 {
@@ -14,9 +15,13 @@ body {
 }
 
 .section2 {
-    text-align: center;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.section3 {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .header-text {
@@ -92,4 +97,30 @@ a:hover {
 .section2-p2 {
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.cards {
+    display: flex;
+    text-align: left;
+    padding: ;
+}
+
+.card-width {
+    border-radius: 2px;
+    margin-left: 2%;
+    width: 60%;
+    margin-right: 2%;
+    padding: 2% 2%;
+}
+
+#card-color1 {
+    background-color: #4f9da658;
+}
+
+#card-color2 {
+    background-color: #ff59595e;
+}
+
+#card-color3 {
+    background-color: rgba(255, 255, 0, 0.276);
 }
