@@ -43,7 +43,7 @@ body {
     border-radius: 7px;
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(rgb(255, 115, 0), orange);
+    background-image: linear-gradient(rgba(250, 78, 47, 0.822), tomato);
     padding: 3% 5%;
     font-weight: 800;
 
@@ -53,7 +53,7 @@ body {
     border-radius: 7px;
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(rgb(255, 115, 0), tomato);
+    background-image: linear-gradient(rgb(243, 70, 40), tomato);
     padding: 1% 2%;
     font-weight: 800;
 
@@ -123,4 +123,26 @@ a:hover {
 
 #card-color3 {
     background-color: rgba(255, 255, 0, 0.276);
+}
+
+.section4-background {
+    display: flex;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.section4-width {
+    width: 40%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.sponsor-button {
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgba(253, 100, 73, 0.548), tomato);
+    padding: 3% 5%;
+    font-weight: 800;
 }
