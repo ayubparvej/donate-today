@@ -3,10 +3,20 @@ body {
     margin: 0;
 }
 
+.common-sections {
+    margin-bottom: 100px;
+}
+
 .section1 {
     background-image: url(images/background.png);
     width: 100%;
     height: 669px;
+}
+
+.section2 {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .header-text {
@@ -16,6 +26,7 @@ body {
     color: white;
     padding-left: 30%;
     padding-right: 30%;
+    margin-bottom: 150px;
 }
 
 .header-bold {
@@ -33,6 +44,52 @@ body {
 
 }
 
+.donate-button2 {
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(255, 115, 0), tomato);
+    padding: 1% 2%;
+    font-weight: 800;
+
+}
+
 a:hover {
     background-image: linear-gradient(gray, black);
+}
+
+.custom-amount {
+    border: none;
+}
+
+.input-field {
+    border-bottom: 10px;
+    width: 50%;
+}
+
+.half-width {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50px;
+    border: none;
+    font-weight: 700;
+    color: gray;
+    border-radius: 1px;
+}
+
+#colored-button {
+    background-color: rgba(255, 99, 71, 0.189);
+    color: tomato;
+    border: 1.2px solid tomato;
+
+}
+
+.donate-today {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section2-p2 {
+    padding-left: 20%;
+    padding-right: 20%;
 }
