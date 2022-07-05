@@ -65,11 +65,15 @@ a:hover {
 
 .custom-amount {
     border: none;
+    width: 50%;
+    height: 40px;
+    text-align: center;
 }
 
 .input-field {
-    border-bottom: 10px;
     width: 50%;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .half-width {
