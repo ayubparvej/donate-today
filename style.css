@@ -8,6 +8,10 @@ body {
     text-align: center;
 }
 
+.pcolor {
+    color: grey;
+}
+
 /*First section's styles start from here*/
 .section1 {
     background-image: url(images/background.png);
@@ -16,7 +20,6 @@ body {
 }
 
 .header-text {
-    text-align: center;
     padding-top: 174px;
     border-radius: 5px;
     color: white;
@@ -25,8 +28,10 @@ body {
     margin-bottom: 150px;
 }
 
+
+
 .header-bold {
-    font-weight: 700;
+    font-weight: bold;
     font-size: 40px;
 }
 
@@ -42,12 +47,12 @@ body {
 
 /*Second section's styles start from here*/
 .section2 {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .donate-today {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -57,31 +62,33 @@ body {
 }
 
 .half-width {
-    margin-left: 5px;
-    margin-right: 5px;
-    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 80px;
+    width: 100px;
     border: none;
-    font-weight: 700;
+    font-weight: 900;
+    font-size: 20px;
     color: gray;
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 #colored-button {
     background-color: rgba(255, 99, 71, 0.189);
     color: tomato;
-    border: 1.2px solid tomato;
+    border: 2px solid tomato;
 
 }
 
 .custom-amount {
     border: none;
-    width: 50%;
+    width: 60%;
     height: 40px;
     text-align: center;
 }
 
 .input-field {
-    width: 50%;
+    width: 60%;
     margin-top: 0;
     padding-top: 0;
 }
@@ -102,6 +109,11 @@ body {
     padding-right: 10%;
 }
 
+.donation-plan {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
 .cards {
     display: flex;
     text-align: left;
@@ -110,36 +122,48 @@ body {
 
 .card-width {
     border-radius: 2px;
-    margin-left: 2%;
+    margin-left: 1%;
     width: 60%;
-    margin-right: 2%;
-    padding: 2% 2%;
+    margin-right: 1%;
+    padding: 4% 2%;
 }
 
 #card-color1 {
-    background-color: #4f9da658;
+    background-color: #4f9da61e;
 }
 
 #card-color2 {
-    background-color: #ff59595e;
+    background-color: #ff59591b;
 }
 
 #card-color3 {
-    background-color: rgba(255, 255, 0, 0.276);
+    background-color: rgba(255, 166, 0, 0.082);
 }
 
 /*Fourth section's styles start from here*/
 .section4-background {
     display: flex;
-    text-align: left;
-    margin-left: 10%;
 }
 
 .section4-width {
-    width: 40%;
+    width: 30%;
     height: 100%;
     padding-top: 20px;
-    padding-left: 10px;
+    text-align: left;
+}
+
+.sponsorsec {
+    margin-left: 10%;
+    padding-left: 5%;
+    padding-top: 4%;
+    height: 60%;
+
+}
+
+.img {
+    border-radius: 10px;
+    width: 50%;
+    padding-right: 20%;
 }
 
 .sponsor-button {
@@ -158,7 +182,7 @@ body {
     margin-left: 20%;
     margin-left: 20%;
     border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.155);
+    background-color: rgba(255, 208, 0, 0.155);
 }
 
 /*Fourth section's styles start from here*/
@@ -168,7 +192,7 @@ body {
 }
 
 .email-input {
-    padding-top: 8%;
+    padding-top: 7%;
     border-radius: 5%;
     border-right: none;
 }
